@@ -1,0 +1,118 @@
+/* *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.all {
+    width: 95%;
+    margin: 0 auto;
+    overflow: hidden; 
+ }
+ .left{
+   float: left;
+    width: 30%;
+    text-align: left;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    height: 80vh;
+    padding: 20px;
+  }
+  .left h3{
+    text-align:center;
+    margin-bottom: 20px;
+  }
+ .deals{
+    position: relative;  
+}
+.img-deals img{
+width: 100%;
+height: 350px;
+margin-bottom: 20px;
+}
+.price{
+    text-align: end;
+}
+
+.info-deals{
+    margin-bottom: 20px;
+    width: 100%;
+    background-color: aqua;
+    padding: 0 20px;
+    
+}
+    /*
+.info-deals span ,.info-deals h3{
+    display: block;
+    margin-bottom: 5px;
+}
+.info-deals h3{
+    margin-top: 10px;
+}
+.info-dels{
+    text-align: center;
+
+}
+.info-dels span{
+    display: block;
+    margin: 10px ;
+
+}*/
+/* .info-dels progress{
+    width: 90%;
+    margin: 10px 0;
+} 
+.one {
+    text-align: end;
+    justify-content:space-around;
+    /* display: inline-block; */
+/* }
+table progress{
+    width: 100%;
+} */ 
+ /* Container for the deal items */
+ .deal-content {
+    display: flex;
+    align-items: flex-start;
+}
+
+.image-and-details {
+    display: flex;
+    align-items: center;
+}
+
+.image {
+    margin-right: 15px; /* المسافة بين الصورة والنصوص */
+}
+
+.image img {
+    max-width: 100px; /* ضبط حجم الصورة حسب الحاجة */
+    height: auto;
+}
+
+.details {
+    display: flex;
+    flex-direction: column;
+}
+
+.price {
+    margin-top: 10px;
+}
+
+.availability, .countdown {
+    margin-top: 20px;
+}
+
+.progress-bar {
+    position: relative;
+}
+
+.progress {
+   
+    height: 10px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+progress {
+    width: 100%;
+}

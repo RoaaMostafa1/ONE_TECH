@@ -1,0 +1,85 @@
+.slide{
+    margin-bottom: 100px;
+    background-color: rgb(230, 250, 250);
+    height: 70vh;
+}
+.top-slide{
+    position: relative;
+    margin-bottom: 20px;
+    padding: 20px 0;
+    border-bottom: 1px solid grey;
+}
+.top-slide ul{
+list-style: none ;
+display:flex ;
+gap: 30px;
+}
+.top-slide ul li {
+    text-decoration: none;
+    font-size: 25px;
+}
+.top-slide ul li a {
+    text-decoration: none;
+   color: black;
+}
+.products{
+    display: flex;
+}
+.product{
+    position: relative;
+    background-color: rgb(249, 249, 249) !important;
+    padding: 20px 30px;
+    text-align: center;
+    overflow: hidden;
+    box-shadow: 5px 5px 10px #949494;
+    border: 1px solid gray !important;
+    border-radius: 5px;
+    width: 20%;
+    margin: 10px;
+}
+.product .sale-present{
+    position: absolute;
+    top: 20px;
+  left: 20px;
+    z-index: 2;
+    background-color: red;
+    border-radius: 50%;
+    width: 27px;
+    height: 27px;
+   padding: 10px;
+}
+
+.product .sale-present-text{
+    position: absolute;
+    top: 20px;
+  left: 20px;
+    z-index: 2;
+    background-color: rgb(29, 100, 214);
+    border-radius: 50%;
+    width: 27px;
+    height: 27px;
+   padding: 10px;
+}
+.product .img-product{
+    position: relative;
+}
+.product .img-product img{
+    width: 100%;
+    transition: 0.3s ease-in-out; 
+}
+
+.product .img-product .img-hover{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    opacity: 0;
+   
+} 
+ .product:hover .img-product img{
+    opacity: 0;
+}
+.product:hover  .img-product .img-hover{
+    opacity: 1;
+   
+} 

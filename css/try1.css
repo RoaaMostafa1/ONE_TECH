@@ -1,0 +1,33 @@
+.latest-container{
+    width: 100%;
+}
+.latest-container h1{
+    font-size: 28px;
+    padding: 30px;
+}
+.latest-cont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.latest{
+    width: 20%;
+    margin: 20px;
+    align-items: center;
+
+}
+.latest-view{
+    align-items: center;
+}
+.rating-best-sel{
+    color: #f0c040;
+    align-items: center;
+}
+.rating-best-sel span{
+    color:black;
+     padding-left: 60px;
+}
+.latest p{
+    color: rgb(168, 161, 161);
+   
+}
